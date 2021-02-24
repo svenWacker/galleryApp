@@ -7,13 +7,16 @@
 }
 body {
   background-color: lightgray;
+  background-image: url(".");
   border: grey 1px solid;
   padding: 20px;
   margin: 20px;
 }
 h1 {
   font-family: "Akaya Telivigala";
-  font-size: 1rem;
+  color: darkblue;
+  text-align: center;
+  font-size: 2rem;
 }
 .pics {
   width: 100vw;
@@ -29,7 +32,7 @@ h1 {
   /* height: 30%; */
   padding: 0.5rem;
   padding-bottom: 1.5rem;
-  filter: grayscale(90%);
+  filter: grayscale(80%);
   opacity: 0.7;
   z-index: auto;
   transition: 2s;
@@ -57,4 +60,32 @@ h1 {
   left: 54%;
   transform: rotate(-15deg);
   /* z-index: 4; */
+}
+#pic1:hover {
+  filter: grayscale(0);
+  transform: scale(1.4);
+  cursor: pointer;
+  opacity: 1;
+  z-index: 1;
+}
+#pic2:hover {
+  filter: grayscale(0);
+  transform: scale(1.4);
+  cursor: pointer;
+  opacity: 1;
+  z-index: 1;
+}
+#pic3:hover {
+  filter: grayscale(0);
+  transform: scale(1.4);
+  cursor: pointer;
+  opacity: 1;
+  z-index: 1;
+}
+#pic4:hover {
+  filter: grayscale(0);
+  transform: scale(1.4);
+  cursor: pointer;
+  opacity: 1;
+  z-index: 1;
 }
