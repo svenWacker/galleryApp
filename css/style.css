@@ -3,9 +3,10 @@
   src: url("../fonts/Akaya_Telivigala/AkayaTelivigala-Regular.ttf");
 }
 :root {
+  /* box-sizing: border-box; */
 }
 body {
-  background-color: whitesmoke;
+  background-color: lightgray;
   border: grey 1px solid;
   padding: 20px;
   margin: 20px;
@@ -14,37 +15,43 @@ h1 {
   font-family: "Akaya Telivigala";
   font-size: 1rem;
 }
-
-/* Style the images inside the grid */
-img {
+.pics {
+  width: 100vw;
+  height: 80vh;
   position: relative;
-  display: inline-block;
-  width: 9rem;
-  height: 6rem;
-  padding-top: 3px;
-  padding-left: 3px;
-  padding-right: 3px;
-  padding-bottom: 12px;
+}
+/* Style the images inside the grid */
+.pic {
+  position: absolute;
+  background-color: whitesmoke;
+  width: 30%;
+  height: 30%;
+  padding: 1% 1% 3% 1%;
+  filter: grayscale(100%);
   border: black 1px solid;
-  /* padding: 20px; */
-  /* margin: 20px; */
   opacity: 0.6;
 }
 #pic1 {
-  top: 10vh;
+  top: 42%;
+  left: 10%;
   transform: rotate(10deg);
-  z-index: 1;
+  z-index: 100;
 }
 #pic2 {
-  top: 20vh;
+  top: 36%;
+  left: 24%;
   transform: rotate(20deg);
+  z-index: 90;
 }
 #pic3 {
-  top: 30vh;
-  transform: rotate(30deg);
-  z-index: 1;
+  top: 23%;
+  left: 42%;
+  transform: rotate(10deg);
+  z-index: 80;
 }
 #pic4 {
-  top: 40vh;
-  transform: rotate(40deg);
+  top: 6%;
+  left: 54%;
+  transform: rotate(-15deg);
+  z-index: 70;
 }
