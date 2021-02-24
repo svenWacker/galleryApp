@@ -5,24 +5,20 @@
 :root {
 }
 body {
-  background-color: orange;
-  background-image: url("./cool.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  border: black 2px solid;
+  background-color: whitesmoke;
+  border: grey 1px solid;
+  padding: 20px;
+  margin: 20px;
 }
 h1 {
   font-family: "Akaya Telivigala";
-  font-size: 9rem;
+  font-size: 1rem;
 }
-/* The grid: Four equal columns that floats next to each other */}
 
 /* Style the images inside the grid */
 img {
   display: inline-block;
   width: 9rem;
   height: 6rem;
-  opacity: 0.8;
+  opacity: 0.6;
 }
