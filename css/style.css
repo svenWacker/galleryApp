@@ -17,8 +17,16 @@ h1 {
 
 /* Style the images inside the grid */
 img {
+  position: relative;
   display: inline-block;
   width: 9rem;
   height: 6rem;
+  padding-top: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 12px;
+  border: black 1px solid;
+  /* padding: 20px; */
+  /* margin: 20px; */
   opacity: 0.6;
 }
