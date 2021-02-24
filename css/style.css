@@ -30,3 +30,21 @@ img {
   /* margin: 20px; */
   opacity: 0.6;
 }
+#pic1 {
+  top: 10vh;
+  transform: rotate(10deg);
+  z-index: 1;
+}
+#pic2 {
+  top: 20vh;
+  transform: rotate(20deg);
+}
+#pic3 {
+  top: 30vh;
+  transform: rotate(30deg);
+  z-index: 1;
+}
+#pic4 {
+  top: 40vh;
+  transform: rotate(40deg);
+}
